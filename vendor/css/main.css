@@ -1,0 +1,145 @@
+#home {
+  background-image: url('../../agency/img/btc.jpg');
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  opacity: 80%;
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.para {
+  font-size: 14px!important;
+}
+
+.item p {
+  font-size: 15px;
+  line-height: 26px;
+  color: white;
+}
+
+.section-head {
+  margin-bottom: 23px;
+  margin-top: 30px;
+}
+
+/* .gradient-bg1 {
+  background: #2f2f2f;
+  background-image: url("/agency/img/FLL.jpg");
+} */
+
+
+.item:hover {
+  background: #252422;
+}
+
+.item .feature_box_col_one {
+  color: #2f2f2f;
+}
+
+.item .feature_box_col_two {
+  color: #2f2f2f
+}
+
+.item .feature_box_col_three {
+  color: #2f2f2f
+}
+
+.item .feature_box_col_four {
+  color: #2f2f2f
+}
+
+.item .feature_box_col_five {
+  color: #2f2f2f
+}
+
+.item .feature_box_col_six {
+  color: #2f2f2f
+}
+
+.btn.btn-hvr-blue .btn-hvr-effect {
+  background: #2f2f2f;
+  border-color: goldenrod;
+}
+
+.section-head h4 {
+  color: white;
+}
+
+.btn.btn-hvr-blue:hover, .btn.btn-hvr-blue:focus {
+  color: #fff;
+  border-color: gold;
+  background: transparent !important;
+}
+
+.btn.btn-pink {
+  background: goldenrod;
+  border-color: goldenrod;
+  color: #ffffff;
+}
+
+.header-appear .navbar-top-default.navbar-gradient {
+  background: #2f2f2f;
+}
+
+.process-wrapp > .pro-step.blue {
+  background: #2f2f2f;
+}
+
+.process-wrapp > .pro-step.midnight {
+  background: #2f2f2f;
+}
+
+.process-wrapp > .pro-step.purple {
+  background: #2f2f2f;
+}
+
+.process-wrapp > .pro-step.pink {
+  background: #2f2f2f;
+}
+
+.process-wrapp > .pro-step.midnight {
+  background: #2f2f2f;
+}
+
+.process-wrapp > .pro-step.blue {
+  background: #2f2f2f;
+}
+
+
+@media screen and (max-width: 767px) {
+  .nav-holder.style-2.active {
+    background: #2f2f2f;
+  }
+
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    color: goldenrod;
+}
+}
+
+.text-white {
+  color: goldenrod!important;
+}
+
+span, a, a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.inTouch {
+  color: goldenrod
+}
+
+.preloader {
+  background: goldenrod;
+}
