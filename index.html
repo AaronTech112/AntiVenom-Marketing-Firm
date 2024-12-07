@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warning: Malicious Activity Detected</title>
+    <title>Critical Error</title>
     <style>
         body {
             margin: 0;
@@ -13,7 +13,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: linear-gradient(135deg, #3a3a3a, #1a1a1a);
+            background: linear-gradient(135deg, #000, #222);
             color: #ff0000;
             text-align: center;
         }
@@ -22,11 +22,11 @@
             padding: 20px;
             border: 5px solid #ff0000;
             border-radius: 10px;
-            background-color: rgba(255, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.8);
         }
         
         h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 1rem;
             color: #ff0000;
         }
@@ -34,6 +34,7 @@
         p {
             font-size: 1.2rem;
             margin-bottom: 1rem;
+            color: #fff;
         }
         
         .warning {
@@ -41,15 +42,21 @@
             color: #ffcc00;
             font-style: italic;
         }
+        
+        .error-code {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            color: #fff;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>Malicious Activity Detected</h1>
-        <p>Your activity has been flagged as suspicious and logged.</p>
-        <p>If you believe this is an error, please contact our support team with your IP address.</p>
-        <p class="warning">Further attempts to access this site may result in a report to relevant authorities.</p>
+        <h1>Critical System Error</h1>
+        <p>A catastrophic failure has occurred. Core system files are corrupted beyond recovery.</p>
+        <p class="warning">All data associated with this domain is permanently lost.</p>
+        <p class="error-code">Error Code: 0xDEAD-C0DE</p>
     </div>
 </body>
 
